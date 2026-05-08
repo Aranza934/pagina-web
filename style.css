@@ -1,0 +1,275 @@
+/* 
+    style.css
+    Diseño rosado pastel
+*/
+
+/* ================= ESTILO GENERAL ================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff5f8;
+    color: #5a4a4a;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    background: linear-gradient(135deg, #f8c8dc, #f9dbe9);
+    color: #6b4c57;
+    text-align: center;
+    padding: 40px;
+}
+
+/* ================= MENÚ ================= */
+
+nav {
+    background-color: #f4b6cc;
+    position: sticky;
+    top: 0;
+}
+
+/* Lista del menú */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+/* Espaciado entre opciones */
+nav ul li {
+    margin: 10px;
+}
+
+/* Enlaces del menú */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Efecto hover */
+nav ul li a:hover {
+    color: #ffeef5;
+}
+
+/* ================= CONTENIDO ================= */
+
+main {
+    padding: 30px;
+}
+
+/* Tarjetas principales */
+.card {
+    background: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0px 4px 12px rgba(244, 182, 204, 0.4);
+    transition: 0.3s;
+}
+
+/* Animación al pasar el mouse */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ================= GRID ================= */
+
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* Tarjetas pequeñas */
+.mini-card {
+    background: #ffe4ee;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* ================= BOTÓN ================= */
+
+.btn {
+    display: block;
+    width: 180px;
+    margin: 30px auto;
+    text-align: center;
+    background: #f4b6cc;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+/* Hover del botón */
+.btn:hover {
+    background: #ec9fbc;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #f4b6cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+}/* 
+    style.css
+    Diseño rosado pastel
+*/
+
+/* ================= ESTILO GENERAL ================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff5f8;
+    color: #5a4a4a;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    background: linear-gradient(135deg, #f8c8dc, #f9dbe9);
+    color: #6b4c57;
+    text-align: center;
+    padding: 40px;
+}
+
+/* ================= MENÚ ================= */
+
+nav {
+    background-color: #f4b6cc;
+    position: sticky;
+    top: 0;
+}
+
+/* Lista del menú */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+/* Espaciado entre opciones */
+nav ul li {
+    margin: 10px;
+}
+
+/* Enlaces del menú */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Efecto hover */
+nav ul li a:hover {
+    color: #ffeef5;
+}
+
+/* ================= CONTENIDO ================= */
+
+main {
+    padding: 30px;
+}
+
+/* Tarjetas principales */
+.card {
+    background: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0px 4px 12px rgba(244, 182, 204, 0.4);
+    transition: 0.3s;
+}
+
+/* Animación al pasar el mouse */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ================= GRID ================= */
+
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* Tarjetas pequeñas */
+.mini-card {
+    background: #ffe4ee;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* ================= BOTÓN ================= */
+
+.btn {
+    display: block;
+    width: 180px;
+    margin: 30px auto;
+    text-align: center;
+    background: #f4b6cc;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+/* Hover del botón */
+.btn:hover {
+    background: #ec9fbc;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #f4b6cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+}

@@ -272,4 +272,73 @@ footer {
     header h1 {
         font-size: 28px;
     }
+  /* ================= FORMULARIO ================= */
+
+.formulario {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+    margin-top: 20px;
+}
+
+/* Inputs y textarea */
+
+.formulario input,
+.formulario textarea {
+
+    padding: 15px;
+
+    border-radius: 15px;
+
+    border: none;
+
+    background: #ffe4ee;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+/* Área de mensaje */
+
+.formulario textarea {
+
+    height: 120px;
+
+    resize: none;
+}
+
+/* Botón */
+
+.formulario button {
+
+    background: linear-gradient(135deg, #f4b6cc, #f7c7d9);
+
+    color: white;
+
+    border: none;
+
+    padding: 15px;
+
+    border-radius: 20px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.4s;
+}
+
+/* Hover botón */
+
+.formulario button:hover {
+
+    transform: scale(3.05);
+
+    background: #ec7fa9;
+}
 }
